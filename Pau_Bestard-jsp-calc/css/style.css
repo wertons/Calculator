@@ -1,0 +1,70 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://thumbs.gfycat.com/ReliableHairyLarva-size_restricted.gif) ;
+    background-size: cover;
+    background-origin: center;
+    background-color: ghostwhite;
+}
+
+p.marca{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family:fantasy;
+    text-shadow:2px 2px 2px ghostwhite;
+    font-size: 40px;
+}
+
+form {
+    width: 160%;
+    max-width: 350px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius:25px;
+    padding-bottom: 15px;
+    margin: auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,102,1) 0%,  rgba(148,187,233,1) 100%);    
+}
+
+input[type=submit],a {
+    background-color: #999999;
+    border: none;
+    border-radius:25px;
+    color: #00000025244;
+    padding: 16px 32px;
+    font-size: 1em;
+    min-width: 21%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0.3em 0.3em  #161616;
+    transition: font-size 0.5s;
+    font-weight: bold;
+
+}
+input[type=submit]:hover ,a{
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 1.2em;
+
+
+
+}
+
+input[type=textfield],a {
+    width: 85%;
+    padding: 20px 10px;
+    font-size: 16px;
+    margin: 15px 0;
+    border: 1px solid silver;
+    border-radius:25px;
+    text-align: left;
+    color: black;
+    background: #ccc;
+}
